@@ -1,0 +1,49 @@
+java.class.path: /Volumes/GanttProject 2.5.5/GanttProject 2.5.5.app/Contents/Resources/Java/eclipsito.jar:/Volumes/GanttProject 2.5.5/GanttProject 2.5.5.app/Contents/Resources/Java
+java.home: /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home
+java.io.tmpdir: /var/folders/60/j2tqhpjx4lj49m9bncn8n6hw0000gn/T/
+java.runtime.version: 1.6.0_35-b10-428-11M3811
+java.vendor: Apple Inc.
+java.vm.name: Java HotSpot(TM) 64-Bit Server VM
+java.vm.vendor: Apple Inc.
+java.vm.version: 20.10-b01-428
+os.arch: x86_64
+os.name: Mac OS X
+os.version: 10.7.4
+sun.java.command: null
+user.country: KR
+user.dir: /Volumes/GanttProject 2.5.5
+user.home: /Users/inmingoon
+user.language: ko
+user.timezone: Asia/Seoul
+
+Creating main frame...
+1. loading look'n'feels
+2. loading options
+3. creating menus...
+4. creating views...
+5. calculating size and packing...
+6. changing language ...
+7. changing look'n'feel ...
+8. finalizing...
+Main frame created
+Splash closed
+2012. 9. 17 오전 10:34:56 net.sourceforge.ganttproject.GPLogger logToLogger
+경고: Table 'OS/2' does not exist in /System/Library/Fonts/AppleGothic.ttf
+com.itextpdf.text.DocumentException: Table 'OS/2' does not exist in /System/Library/Fonts/AppleGothic.ttf
+	at com.itextpdf.text.pdf.TrueTypeFont.fillTables(TrueTypeFont.java:434)
+	at com.itextpdf.text.pdf.TrueTypeFont.process(TrueTypeFont.java:664)
+	at com.itextpdf.text.pdf.TrueTypeFont.<init>(TrueTypeFont.java:370)
+	at com.itextpdf.text.pdf.BaseFont.createFont(BaseFont.java:690)
+	at com.itextpdf.text.pdf.BaseFont.createFont(BaseFont.java:606)
+	at com.itextpdf.text.pdf.BaseFont.createFont(BaseFont.java:441)
+	at org.ganttproject.impex.htmlpdf.fonts.TTFontCache.createFontSupplier(TTFontCache.java:157)
+	at org.ganttproject.impex.htmlpdf.fonts.TTFontCache.registerFontFile(TTFontCache.java:126)
+	at org.ganttproject.impex.htmlpdf.fonts.TTFontCache.registerFonts(TTFontCache.java:103)
+	at org.ganttproject.impex.htmlpdf.fonts.TTFontCache.registerDirectory(TTFontCache.java:68)
+	at org.ganttproject.impex.htmlpdf.itext.ITextEngine.registerFontDirectories(ITextEngine.java:183)
+	at org.ganttproject.impex.htmlpdf.itext.ITextEngine$2.run(ITextEngine.java:149)
+	at java.lang.Thread.run(Thread.java:680)
+2012. 9. 17 오전 11:11:41 net.sourceforge.ganttproject.GPLogger log
+정보: [GanttOptions] save(): finished!!
+2012. 9. 17 오전 11:11:50 org.bardsoftware.impl.eclipsito.BootImpl shutdown
+정보: Eclipsito platform is shut down.
